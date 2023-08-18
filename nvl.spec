@@ -69,7 +69,7 @@ Recomendations
 
   NVL format doesn't impose any restrictions on NAME and VAL,
   besides that NAME mustn't include "=" char. Nevertheless it's better to
-  use only a printable subset of utf-8 characters for NAME, if you want to
+  use a printable subset of utf-8 characters for NAME, if you want to
   use shell NVL implementations to process your data.
 
   Every NVL implementation is recomended to specify what characters is
