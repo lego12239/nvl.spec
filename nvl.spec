@@ -85,6 +85,11 @@ Recomendations
 
   See Appendix A for strict levels definitions.
 
+  Although NVL doesn't directly support arrays, they can be simulated with
+  multiple occurencies of the same name with different values. This approach
+  may be simplified a little by interpreting empty names as equal to a
+  previous one.
+
 Appendix A. ABNF of NVL
 
   NVL general format (NAME strict level 0):
